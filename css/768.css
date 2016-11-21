@@ -74,16 +74,7 @@ a.button:active {
 /* 8.BANNER */
 
 .logo {
-  width: 218px;
   float: left;
-}
-img.logo.logo-2x, img.logo.logo-s {
-  display: none;
-  visibility: hidden;
-}
-img.logo.logo-default{
-  display: block;
-  visibility: visible;
 }
 
 .ug-info {
@@ -176,9 +167,13 @@ img.logo.logo-default{
   text-shadow: -1px -1px 0px #9C0015, 1px 1px 0px #FF6479;
 }
 
+.one-col {
+  margin-left: -10px;
+}
+
 .one-col > div {
   width: 96%;
-  margin: 10px 0 0 3%;
+  margin: 10px 0 0 10px;
 }
 
 .two-cols > div {
@@ -186,9 +181,13 @@ img.logo.logo-default{
   margin: 10px 0 0 2%;
 }
 
+.three-cols {
+  margin-left: -10px;
+}
+
 .three-cols > div {
-  width: 30%;
-  margin: 10px 0 0 2%;
+  width: 32%;
+  margin: 10px 0 0 10px;
   float: left;
 }
 
@@ -198,9 +197,7 @@ img.logo.logo-default{
 }
 
 .speaker {
-  float: left;
   padding: 10px;
-  border: 10px solid #fff;
   background: #e1e1e1;
 }
 
@@ -239,18 +236,7 @@ img.logo.logo-default{
 }
 
 /* 12.COMPLIMENTARY */
-
-
-
 /* 13.CONTENTINFO */
-
-footer {
-  margin-top: 20px;
-  padding: 20px 0;
-  border-top: 1px solid #223035;
-  background: url(../img/shadow.png) no-repeat top center;
-}
-
 /* 14.GLOBAL OBJECTS */
 /* 15.VENDOR-SPECIFIC */
 /* 16.TEMPLATE SPECIFICS */

@@ -117,7 +117,6 @@ body {
 
 .speaker {
   padding: 10px;
-  border: 5px solid #fff;
   background: #e1e1e1;
 }
 
@@ -197,12 +196,11 @@ body {
 
 .one-col > div {
   width: 96%;
-  margin: 10px 0 0 3%;
+  margin: 10px 0 0;
 }
 
 .three-cols > div {
   width: 96%;
-  margin: 10px 0 0 2%;
 }
 
 .two-cols > div,
@@ -215,13 +213,6 @@ body {
 /* 12.COMPLIMENTARY */
 
 /* 13.CONTENTINFO */
-
-footer {
-  margin-top: 20px;
-  padding: 20px 0;
-  border-top: 1px solid #223035;
-}
-
 /* 14.GLOBAL OBJECTS */
 /* 15.VENDOR-SPECIFIC */
 /* 16.TEMPLATE SPECIFICS */
