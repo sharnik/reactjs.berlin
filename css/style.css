@@ -385,7 +385,6 @@ img.logo.logo-s{
   border: 5px solid #e1e1e1;
   color: #223035;
   background: #fff;
-  box-shadow: 0 0 5px #666;
 }
 
 .triangle-border .left {
@@ -411,7 +410,6 @@ img.logo.logo-s{
 .special-announcement {
   position: relative;
   border: 10px solid #E1E1E1;
-  box-shadow: 0 0 10px #888;
   margin: 2em 0;
   overflow: hidden;
 }
