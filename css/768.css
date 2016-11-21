@@ -87,9 +87,8 @@ a.button:active {
 .triangle-border {
   position: relative;
   padding: 10px;
-  margin: 1em 0 1em;
+  margin: 0 0 1em;
   border: 5px solid #e1e1e1;
-  color: #223035;
   background: #fff;
 }
 
