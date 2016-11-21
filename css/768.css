@@ -135,55 +135,6 @@ img.logo.logo-default{
 }
 
 /* 9.NAVIGATION */
-
-nav {
-  margin: 0 0 20px 0;
-}
-
-nav ul {
-  width: 100%;
-  display: block;
-  list-style: none;
-  background: url(../img/bg-nav.gif) repeat-x left center;
-}
-
-nav li {
-  float: left;
-  display: inline;
-  margin-bottom: 5px;
-  padding: 0;
-  background: none;
-}
-
-nav li a:link,
-nav li a:visited {
-  display: inline;
-  padding: 5px 10px;
-  margin-right: 5px;
-  background: #f9f9f9;
-  border-left: 1px solid #1ea0ce;
-  border-right: 1px solid #1ea0ce;
-  color: #1ea0ce;
-  font-size: 1.15em;
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 0.01em;
-}
-
-nav li a:hover {
-  background: rgb(30,160,206);
-  color: #fff;
-  box-shadow: 0px 0px 5px #555;
-  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
-}
-
-nav li a.active {
-  background: rgb(30,160,206);
-  color: #fff;
-  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
-}
-
 /* 10.CONTENT */
 
 /* --- Reject.JS Final Header --- */
