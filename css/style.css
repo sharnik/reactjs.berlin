@@ -101,16 +101,15 @@ padding : 0; }
 /* 1.ROOT */
 
 html {
-overflow-y : scroll;
-background : url(../img/bg-body.jpg)repeat top left; }
+  background : #fff;
+  color: #333;
+}
 
 body {
 margin : 0 auto;
 padding : 24px 0;
-width : 90% /* 252px */;
 font : 75%/1.4 'Droid Sans',sans-serif;
-color : #223035;
-background-color : transparent; }
+}
 
 /* 2.HEADINGS */
 
@@ -126,20 +125,18 @@ h6,
   font-family : 'Droid Sans', sans-serif;
   font-weight: 700;
   font-size: 50%;
-  text-shadow: 0 1px 1px #666;
 }
 
 
 
 h1, h2 {
-  margin-bottom : .75em;
+  margin-bottom : 0.5em;
   font-size : 3em;
   line-height : 1.2;
-  color: #1ea0ce;
 }
 
 h3, h4 {
-  margin-bottom : 1em;
+  margin-bottom : 0.5em;
   font-size : 1.5em;
   line-height : 1.3;
 }
@@ -148,7 +145,6 @@ h5, .speaker-name {
   margin-bottom : 1.25em;
   font-size : 1.25em;
   line-height : 1.25;
-  text-shadow: none;
 }
 
 h6 {
@@ -159,10 +155,6 @@ h6 {
 
 .empty h3,h4,h5,h6 {
   color: #223035;
-}
-
-h3,h4,h5,h6 {
-  text-shadow: none;
 }
 
 /* 3.TYPOGRAPHY */
@@ -187,7 +179,7 @@ ul {
 
 ol {
   list-style-type : decimal;
-  padding-left : 24px; 
+  padding-left : 24px;
 }
 
 li ul,
@@ -363,7 +355,8 @@ h1 span {
 }
 
 .logo {
-  width: 260px;
+  display: block;
+  width: 150px;
   margin: 0 auto 10px auto;
 }
 img.logo.logo-default, img.logo.logo-2x {
@@ -389,68 +382,11 @@ img.logo.logo-s{
   padding: 10px;
   margin: 1em 0 1em;
   border: 5px solid #e1e1e1;
-  color: #223035;
   background: #fff;
-  box-shadow: 0 0 5px #666;
 }
 
 .triangle-border .left {
   margin-left: 0;
-}
-
-/* 9.NAVIGATION */
-
-nav {
-  margin: 0;
-}
-
-nav ul {
-  width: 100%;
-  display: block;
-  list-style: none;
-  background: none
-}
-
-nav li {
-  margin-bottom: 5px;
-  padding: 0 10%;
-  background: url(../img/bg-nav.gif) repeat-x left center;
-}
-
-nav li a:before {
-  content: "\2022   ";
-}
-
-nav li a:after {
-  content: "   \2022";
-}
-
-nav li a:link,
-nav li a:visited {
-  display: block;
-  padding: 5px 10px;
-  background: #f9f9f9;
-  border-left: 1px solid #1ea0ce;
-  border-right: 1px solid #1ea0ce;
-  color: #1ea0ce;
-  font-size: 1.15em;
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 0.01em;
-}
-
-nav li a:hover {
-  background: rgb(30,160,206);
-  color: #fff;
-  box-shadow: 0px 0px 5px #555;
-  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
-}
-
-nav li a.active {
-  background: rgb(30,160,206);
-  color: #fff;
-  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
 }
 
 #nextmeetup {
@@ -458,18 +394,20 @@ nav li a.active {
   text-decoration: inherit;
 }
 
+/* 9.NAVIGATION */
 /* 10.CONTENT */
 
 .content {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* --- Reject.JS Final Header --- */
 
 .special-announcement {
   position: relative;
-  background: url(http://rejectjs.org/images/bg_body.gif);
   border: 10px solid #E1E1E1;
-  box-shadow: 0 0 10px #888;
   margin: 2em 0;
   overflow: hidden;
 }
@@ -551,11 +489,15 @@ nav li a.active {
 }
 
 .speaker {
-  padding: 10px;
+  padding: 20px;
   margin-bottom: 10px;
-  border: 5px solid #fff;
+  min-height: 14em;
   background: #e1e1e1;
-  box-shadow: 1px 1px 10px #ababab;
+  border: 10px solid #e1e1e1;
+}
+
+.speaker :last-child {
+  margin-bottom: 0;
 }
 
 .speaker li {
@@ -608,9 +550,10 @@ iframe {
 .two-cols,
 .three-cols,
 .four-cols {
-  margin: 10px 0 0 3%;
+  margin: 10px 0 0 0;
 }
 
+.one-col > div,
 .three-cols > div {
   width: 100%;
   padding: 10px;
@@ -700,8 +643,6 @@ article {
 footer {
   margin-top: 20px;
   padding: 20px 0;
-  border-top: 1px solid #223035;
-  background: none;
 }
 
 footer ul {
@@ -709,9 +650,6 @@ footer ul {
 }
 
 footer h2 {
-  color: #223035;
-  text-shadow: none;
-  margin-bottom: 1em;
   font-size: 2em;
 }
 
@@ -737,32 +675,27 @@ clear : both; }
 
 body {
 -webkit-text-size-adjust : 100%;
--ms-text-size-adjust : 100%; }
+-ms-text-size-adjust : 100%;
+}
 
 a:link {
--webkit-tap-highlight-color : rgb(52,158,219); }
+  -webkit-tap-highlight-color : rgb(52,158,219);
+}
 
 ::-webkit-selection {
-background : rgb(23,119,175);
-color : rgb(250,250,250);
-text-shadow : none; }
+  background : rgb(23,119,175);
+  color : rgb(250,250,250);
+}
 
 ::-moz-selection {
-background : rgb(23,119,175);
-color : rgb(250,250,250);
-text-shadow : none; }
+  background : rgb(23,119,175);
+  color : rgb(250,250,250);
+}
 
 ::selection {
-background : rgb(23,119,175);
-color : rgb(250,250,250);
-text-shadow : none; }
-
-/* input[type=search] {
--webkit-appearance : none; }
-
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button {
-display : none; } */
+  background : rgb(23,119,175);
+  color : rgb(250,250,250);
+}
 
 ::-webkit-input-placeholder {
 padding : 10px;

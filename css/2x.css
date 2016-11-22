@@ -38,19 +38,6 @@ _____________________________________________________
 /* 6.TABLES */
 /* 7.FORMS (See css/mylibs/forms.css) */
 /* 8.BANNER */
-.logo {
-  width: 195px;
-  margin: 0 auto 10px auto;
-  background: url() no-repeat top center;
-}
-img.logo.logo-default, img.logo.logo-s {
-  display: none;
-  visibility: hidden;
-}
-img.logo.logo-2x{
-  display: block;
-  visibility: visible;
-}
 /* 9.NAVIGATION */
 /* 10.CONTENT */
 

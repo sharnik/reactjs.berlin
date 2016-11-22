@@ -74,16 +74,7 @@ a.button:active {
 /* 8.BANNER */
 
 .logo {
-  width: 218px;
   float: left;
-}
-img.logo.logo-2x, img.logo.logo-s {
-  display: none;
-  visibility: hidden;
-}
-img.logo.logo-default{
-  display: block;
-  visibility: visible;
 }
 
 .ug-info {
@@ -96,9 +87,8 @@ img.logo.logo-default{
 .triangle-border {
   position: relative;
   padding: 10px;
-  margin: 1em 0 1em;
+  margin: 0 0 1em;
   border: 5px solid #e1e1e1;
-  color: #223035;
   background: #fff;
 }
 
@@ -135,55 +125,6 @@ img.logo.logo-default{
 }
 
 /* 9.NAVIGATION */
-
-nav {
-  margin: 0 0 20px 0;
-}
-
-nav ul {
-  width: 100%;
-  display: block;
-  list-style: none;
-  background: url(../img/bg-nav.gif) repeat-x left center;
-}
-
-nav li {
-  float: left;
-  display: inline;
-  margin-bottom: 5px;
-  padding: 0;
-  background: none;
-}
-
-nav li a:link,
-nav li a:visited {
-  display: inline;
-  padding: 5px 10px;
-  margin-right: 5px;
-  background: #f9f9f9;
-  border-left: 1px solid #1ea0ce;
-  border-right: 1px solid #1ea0ce;
-  color: #1ea0ce;
-  font-size: 1.15em;
-  font-weight: 700;
-  text-decoration: none;
-  text-align: center;
-  letter-spacing: 0.01em;
-}
-
-nav li a:hover {
-  background: rgb(30,160,206);
-  color: #fff;
-  box-shadow: 0px 0px 5px #555;
-  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
-}
-
-nav li a.active {
-  background: rgb(30,160,206);
-  color: #fff;
-  text-shadow: -1px -1px 0 rgb(0,130,176), 1px 1px 0 rgb(60,220,255);
-}
-
 /* 10.CONTENT */
 
 /* --- Reject.JS Final Header --- */
@@ -225,9 +166,13 @@ nav li a.active {
   text-shadow: -1px -1px 0px #9C0015, 1px 1px 0px #FF6479;
 }
 
+.one-col {
+  margin-left: -10px;
+}
+
 .one-col > div {
   width: 96%;
-  margin: 10px 0 0 3%;
+  margin: 10px 0 0 10px;
 }
 
 .two-cols > div {
@@ -235,9 +180,13 @@ nav li a.active {
   margin: 10px 0 0 2%;
 }
 
+.three-cols {
+  margin-left: -10px;
+}
+
 .three-cols > div {
-  width: 30%;
-  margin: 10px 0 0 2%;
+  width: 32%;
+  margin: 10px 0 0 10px;
   float: left;
 }
 
@@ -247,9 +196,7 @@ nav li a.active {
 }
 
 .speaker {
-  float: left;
   padding: 10px;
-  border: 10px solid #fff;
   background: #e1e1e1;
 }
 
@@ -288,18 +235,7 @@ nav li a.active {
 }
 
 /* 12.COMPLIMENTARY */
-
-
-
 /* 13.CONTENTINFO */
-
-footer {
-  margin-top: 20px;
-  padding: 20px 0;
-  border-top: 1px solid #223035;
-  background: url(../img/shadow.png) no-repeat top center;
-}
-
 /* 14.GLOBAL OBJECTS */
 /* 15.VENDOR-SPECIFIC */
 /* 16.TEMPLATE SPECIFICS */

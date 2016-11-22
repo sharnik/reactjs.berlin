@@ -1,12 +1,12 @@
-BerlinJS.org website
+ReactJS.berlin website
 ====================
 
-To get the latest info about everything BerlinJS related (event announcements etc.)
-it's best to follow us on [Twitter (@berlinjs)](http://twitter.com/berlinjs)
+To get the latest info about everything ReactJS berlin related (event announcements etc.)
+it's best to follow us on [Twitter (@reactberlin)](https://twitter.com/reactberlin)
 
-* Website: http://berlinjs.org
-* Twitter: http://twitter.com/berlinjs
-* Google Group: http://groups.google.com/group/js-berlin
+* Website: http://reactjs.berlin
+* Twitter: http://twitter.com/reactberlin
+* Meetup Group: http://www.meetup.com/React-Berlin/
 
 ## How to submit a talk proposal
 
